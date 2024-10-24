@@ -12,9 +12,5 @@ ctk.set_appearance_mode("light")
 
 
 
-
-
-
-
 # Lar appen kjøre
 app.mainloop()
