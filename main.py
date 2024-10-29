@@ -8,6 +8,7 @@ def startDownload():
         ydl_opts = {
             'format': 'best', # velger beste kvalitet for videon
             'outtmpl': '%(title)s.%(ext)s', #setter fil navnet og fil type.
+            'noplaylist': False, # Lar laste ned hele spillelisten
         }
         with YoutubeDL(ydl_opts) as ydl: # starter nedlastningen med tidligere valg
             ydl.download([ytLink]) # laster ned
