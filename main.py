@@ -2,6 +2,7 @@ import tkinter
 import customtkinter as ctk
 from yt_dlp import YoutubeDL
 
+
 def startDownload():
     try:
         ytLink = link.get()
@@ -12,6 +13,7 @@ def startDownload():
         }
         with YoutubeDL(ydl_opts) as ydl: # starter nedlastningen med tidligere valg
             ydl.download([ytLink]) # laster ned
+            link.delete(0, 'end') # tømmer tekstfeltet etter nedlastning
     except Exception as e: # gir feilmelding hvis noe går galt
         print(f"YouTube link fungerer ikke: {e}")
     print("Video lastet ned")
