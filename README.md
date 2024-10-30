@@ -1,6 +1,6 @@
 # Mitt Prosjekt
 
-Et enkelt Python-program for \[Nedlastning av YouTube filmer og playlister\]. Programmet fungerer ut av boksen på Windows, og krever kun noen få biblioteker for å kjøre på Python.
+Et enkelt Python-program for **Nedlastning av YouTube filmer og playlister**. Programmet fungerer ut av boksen på Windows, og krever kun noen få biblioteker for å kjøre på Python.
 
 ## Plattformstøtte
 
@@ -24,13 +24,13 @@ For å bruke programmet i et Python-miljø, må du installere noen nødvendige b
 
 Kjør følgende kommandoer i terminalen for å installere nødvendige pakker:
 
-\```bash
+```bash
 pip install tkinter
 pip install customtkinter
 pip install yt-dlp
-\```
+```
 
-> **Merk**: Sørg for at du har \[Python installert\](https://www.python.org/downloads/) før du begynner.
+> **Merk**: Sørg for at du har [Python installert](https://www.python.org/downloads/) før du begynner.
 
 ### MacOS
 
@@ -44,7 +44,7 @@ Når alle nødvendige biblioteker er installert, kan du kjøre programmet ved å
 
 ## Kilder og dokumentasjon
 
-Prosjektet bruker den nyeste forken av \[yt-dlp\](https://github.com/yt-dlp/yt-dlp), oppdatert for 2024, for funksjonalitet og ytelse. Se yt-dlp dokumentasjonen for detaljer om tilgjengelige funksjoner og bruksmåter.
+Prosjektet bruker den nyeste forken av [yt-dlp](https://github.com/yt-dlp/yt-dlp), oppdatert for 2024, for funksjonalitet og ytelse. Se yt-dlp dokumentasjonen for detaljer om tilgjengelige funksjoner og bruksmåter.
 
 ---
 
@@ -59,7 +59,7 @@ Sjekk at du har installert alle nødvendige biblioteker, og at du har riktig Pyt
 ---
 
 ## Lisens  
-\[MIT License\](LICENSE)
+[MIT License](LICENSE)
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⠶⠚⠉⢉⣩⠽⠟⠛⠛⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
