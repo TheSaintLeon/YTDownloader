@@ -1,6 +1,6 @@
 # Mitt Prosjekt
 
-Et enkelt Python-program for \[beskrivelse av hva programmet gjør\]. Programmet fungerer ut av boksen på Windows, og krever kun noen få biblioteker for å kjøre på Python.
+Et enkelt Python-program for \[Nedlastning av YouTube filmer og playlister\]. Programmet fungerer ut av boksen på Windows, og krever kun noen få biblioteker for å kjøre på Python.
 
 ## Plattformstøtte
 
