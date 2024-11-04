@@ -1,3 +1,4 @@
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 # Mitt Prosjekt
 
 Et enkelt Python-program for **Nedlastning av YouTube filmer og playlister**. Programmet fungerer ut av boksen på Windows, og krever kun noen få biblioteker for å kjøre på Python.
