@@ -6,6 +6,8 @@ from yt_dlp import YoutubeDL
 def startDownload():
     try:
         ytLink = link.get()
+        status_label.configure(text="Lastet ned...")
+
         ydl_opts = {
             'format': 'best', # velger beste kvalitet for videon
             'outtmpl': '%(title)s.%(ext)s', #setter fil navnet og fil type.
@@ -15,8 +17,8 @@ def startDownload():
             ydl.download([ytLink]) # laster ned
             link.delete(0, 'end') # tømmer tekstfeltet etter nedlastning
     except Exception as e: # gir feilmelding hvis noe går galt
-        print(f"YouTube link fungerer ikke: {e}")
-    print("Video lastet ned")
+        print(f"YouTube link fungerer ikke: {e}")   
+    print("Video lastet ned")   
 
 # app vinduet
 app = ctk.CTk()
@@ -32,6 +34,10 @@ title.pack(padx=10, pady=10)
 url_var = tkinter.StringVar()
 link = ctk.CTkEntry(app, width=300, height=40, textvariable=url_var)
 link.pack(padx=10, pady=10)
+
+# Status label
+status_label = ctk.CTkLabel(app, text="")
+status_label.pack(padx=10, pady=10)
 
 # Last ned-knappen
 download = ctk.CTkButton(app, text="Last ned", command=startDownload)
